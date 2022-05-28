@@ -134,7 +134,7 @@
     </div>
 </div>
 
-<div class="container">
+<div class="container mt-4">
     <h2 class="text-center text-success font-weight-bold mt-4">Galeri wisata Taman Langit</h2>
     <div class="card-columns">
         <div class="card text-center">

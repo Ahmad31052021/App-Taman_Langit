@@ -24,3 +24,17 @@ Route::get('/about', function () {
 Route::get('/post', function () {
     return view('blog', ['title' => 'Blog']);
 });
+
+
+Route::get('/boking', function () {
+    return view('boking', ['title' => 'boking']);
+});
+
+
+Route::get('/paket-makanan', function () {
+    return view('paket-makanan', ['title' => 'paket-makanan']);
+});
+
+Route::get('/galeri-wisata', function () {
+    return view('galeri-wisata', ['title' => 'galeri-wisata']);
+});

@@ -38,13 +38,13 @@
         <a class="nav-link {{ ($title === "Home") ? 'active' : '' }}" href="/">HOME <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">GALERI WISATA</a>
+        <a class="nav-link {{ ($title === "galeri-wisata") ? 'active' : '' }}" href="galeri-wisata">GALERI WISATA</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">PAKET MAKANAN</a>
+        <a class="nav-link {{ ($title === "paket-makanan") ? 'active' : '' }}" href="paket-makanan">PAKET MAKANAN</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">BOKING TEMPAT</a>
+        <a class="nav-link {{ ($title === "boking") ? 'active' : '' }}" href="boking">BOKING TEMPAT</a>
       </li>
       <li class="nav-item">
         <a class="nav-link {{ ($title === "Blog") ? 'active' : '' }}" href="/post">BLOG</a>
